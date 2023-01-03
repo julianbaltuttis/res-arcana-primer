@@ -1,0 +1,152 @@
+{
+  "gui": {
+    "subtitle": "Zufallsgenerator für Orte der Macht",
+    "callToAction": "Setup",
+    "playerSlider": "Anzahl Spieler",
+    "expansions": "Erweiterungen",
+    "displayOptions": "Anzeigeoptionen",
+    "countBackwards": "Rückwärtszählen",
+    "colorizeLabels": "Farbige Labels",
+    "placesOfPower": "Orte der Macht",
+    "monuments": "Monumente",
+    "reload": "Neu Laden",
+    "close": "Schließen"
+  },
+  "expansions": [
+    {
+      "id": 1,
+      "title": "Nur Grundspiel",
+      "activated": false,
+      "dataKey": "base"
+    },
+    {
+      "id": 2,
+      "title": "Lux et Tenebrae",
+      "activated": true,
+      "dataKey": "lux"
+    },
+    {
+      "id": 3,
+      "title": "Perlae Imperii",
+      "activated": true,
+      "dataKey": "pearl"
+    }
+  ],
+  "placesOfPower": {
+    "base": [
+      {
+        "id": 1,
+        "title": "Heiliger Heinz",
+        "flipSide": "Alchemistenturm",
+        "image": "sacred-grove.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Alchemistenturm",
+        "flipSide": "Heiliger Heinz",
+          "image": "alchemist-tower.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Katakomben der Toten",
+          "flipSide": "Opfergrube",
+          "image": "catacombs.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Opfergrube",
+          "flipSide": "Katakomben der Toten",
+          "image": "sacrificial-pit.jpg"
+        },
+        {
+          "id": 5,
+          "title": "Verfluchte Schmiede",
+          "flipSide": "Zwergenmine",
+          "image": "cursed-forge.jpg"
+        },
+        {
+          "id": 6,
+          "title": "Zwergenmine",
+          "flipSide": "Verfluchte Schmiede",
+          "image": "dwarven-mines.jpg"
+        },
+        {
+          "id": 7,
+          "title": "Korallenschloss",
+          "flipSide": "Versunkenes Schiff",
+          "image": "corale-castle.jpg"
+        },
+        {
+          "id": 8,
+          "title": "Versunkenes Schiff",
+          "flipSide": "Korallenschloss",
+          "image": "sunken-reef.jpg"
+        },
+        {
+          "id": 9,
+          "title": "Drachenhorst",
+          "flipSide": "Bestarium",
+          "image": "dragon-lair.jpg"
+        },
+        {
+          "id": 10,
+          "title": "Bestarium",
+          "flipSide": "Drachenhorst",
+          "image": "bestiary.jpg"
+        }
+      ],
+    "lux": [
+      {
+        "id": 11,
+        "title": "Drachennest",
+        "flipSide": "Kristallpalast",
+        "image": "dragon_aerie.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Kristallpalast",
+        "flipSide": "Drachennest",
+          "image": "crystal_keep.jpg"
+        },
+        {
+          "id": 13,
+          "title": "Temple des Abgrunds",
+          "flipSide": "Tor zur Hölle",
+          "image": "temple-abyss.jpg"
+        },
+        {
+          "id": 14,
+          "title": "Tor zur Hölle",
+          "flipSide": "Temple des Abgrunds",
+          "image": "gate-of-hell.jpg"
+        }
+      ],
+    "pearl": [
+      {
+        "id": 15,
+        "title": "Magische Menagerie",
+        "flipSide": "Alchemistenwerkstatt",
+        "image": "menagerie.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Alchemistenwerkstatt",
+        "flipSide": "Magische Menagerie",
+          "image": "workshop.jpg"
+        },
+        {
+          "id": 17,
+          "title": "Blutinsel",
+          "flipSide": "Perlenriff",
+          "image": "blood-isle.jpg"
+        },
+        {
+          "id": 18,
+          "title": "Perlenriff",
+          "flipSide": "Blutinsel",
+          "image": "pearl-bed.jpg"
+        }
+      ],
+    "promo": []
+  }
+}

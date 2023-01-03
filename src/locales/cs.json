@@ -1,0 +1,146 @@
+{
+  "gui": {
+    "subtitle": "Randomize Your Starting Places of Power",
+    "callToAction": "Generate",
+    "playerSlider": "Number of Players",
+    "expansions": "Expansions",
+    "displayOptions": "Display Options",
+    "countBackwards": "Count Backwards",
+    "colorizeLabels": "Colorize Labels",
+    "placesOfPower": "Places Of Power",
+    "monuments": "Monuments",
+    "reload": "Reload",
+    "close": "Close"
+  },
+  "expansions": [
+    {
+      "id": 1,
+      "title": "Core Only",
+      "activated": false,
+      "dataKey": "base"
+    },
+    {
+      "id": 2,
+      "title": "Menagerie Promo",
+      "activated": true,
+      "dataKey": "promo"
+    }
+  ],
+  "placesOfPower": {
+    "base": [
+      {
+        "id": 1,
+        "title": "Posvátný háj",
+        "flipSide": "Alchymistova věž",
+        "image": "sacred-grove.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Alchymistova věž",
+        "flipSide": "Posvátný háj",
+        "image": "alchemist-tower.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Katakomby mrtvých",
+        "flipSide": "Obětní jáma",
+        "image": "catacombs.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Obětní jáma",
+        "flipSide": "Katakomby mrtvých",
+        "image": "sacrificial-pit.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Prokletá kovárna",
+        "flipSide": "Trpasličí doly",
+        "image": "cursed-forge.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Trpasličí doly",
+        "flipSide": "Prokletá kovárna",
+        "image": "dwarven-mines.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Podmořský hrad",
+        "flipSide": "Potopený vrak",
+        "image": "corale-castle.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Potopený vrak",
+        "flipSide": "Podmořský hrad",
+        "image": "sunken-reef.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Dračí doupě",
+        "flipSide": "Čarodějův bestiář",
+        "image": "dragon-lair.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Čarodějův bestiář",
+        "flipSide": "Dračí doupě",
+        "image": "bestiary.jpg"
+      }
+    ],
+    "lux": [
+      {
+        "id": 11,
+        "title": "Dragon Aerie",
+        "flipSide": "Crystal Keep",
+        "image": "dragon_aerie.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Crystal Keep",
+        "flipSide": "Dragon Aerie",
+        "image": "crystal_keep.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Temple of the Abyss",
+        "flipSide": "Gate of Hell",
+        "image": "temple-abyss.jpg"
+      },
+      {
+        "id": 14,
+        "title": "Gate of Hell",
+        "flipSide": "Temple of the Abyss",
+        "image": "gate-of-hell.jpg"
+      }
+    ],
+    "pearl": [
+      {
+        "id": 15,
+        "title": "Mystical Menagerie",
+        "flipSide": "Alchemical Workshop",
+        "image": "menagerie.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Alchemical Workshop",
+        "flipSide": "Mystical Menagerie",
+        "image": "workshop.jpg"
+      },
+      {
+        "id": 17,
+        "title": "Blood Isle",
+        "flipSide": "Pearl Bed",
+        "image": "blood-isle.jpg"
+      },
+      {
+        "id": 18,
+        "title": "Pearl Bed",
+        "flipSide": "Blood Isle",
+        "image": "pearl-bed.jpg"
+      }
+    ],
+    "promo": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "languageMapping": {
+    "en": "English",
+    "hu": "Magyar",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Spanish",
+    "cs": "Czech"
+  },
+  "ApplicationSettings": {
+    "base": false,
+    "lux": true,
+    "pearl": true,
+    "countBackwards": false,
+    "coloredLabels": true,
+    "playerCount": 3
+  }
+}
+

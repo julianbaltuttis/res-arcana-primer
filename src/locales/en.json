@@ -1,0 +1,152 @@
+{
+  "gui": {
+    "subtitle": "Randomize Your Starting Places of Power",
+    "callToAction": "Generate",
+    "playerSlider": "Number of Players",
+    "expansions": "Expansions",
+    "displayOptions": "Display Options",
+    "countBackwards": "Count Backwards",
+    "colorizeLabels": "Colorize Labels",
+    "placesOfPower": "Places Of Power",
+    "monuments": "Monuments",
+    "reload": "Reload",
+    "close": "Close"
+  },
+  "expansions": [
+    {
+      "id": 1,
+      "title": "Core Only",
+      "activated": false,
+      "dataKey": "base"
+    },
+    {
+      "id": 2,
+      "title": "Lux et Tenebrae",
+      "activated": true,
+      "dataKey": "lux"
+    },
+    {
+      "id": 3,
+      "title": "Perlae Imperii",
+      "activated": true,
+      "dataKey": "pearl"
+    }
+  ],
+  "placesOfPower": {
+    "base": [
+      {
+        "id": 1,
+        "title": "Sacred Grove",
+        "flipSide": "Alchemist's Tower",
+        "image": "sacred-grove.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Alchemist's Tower",
+        "flipSide": "Sacred Grove",
+          "image": "alchemist-tower.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Catacombs of the Dead",
+          "flipSide": "Sacrificial Pit",
+          "image": "catacombs.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Sacrificial Pit",
+          "flipSide": "Catacombs of the Dead",
+          "image": "sacrificial-pit.jpg"
+        },
+        {
+          "id": 5,
+          "title": "Cursed Forge",
+          "flipSide": "Dwarven Mines",
+          "image": "cursed-forge.jpg"
+        },
+        {
+          "id": 6,
+          "title": "Dwarven Mines",
+          "flipSide": "Cursed Forge",
+          "image": "dwarven-mines.jpg"
+        },
+        {
+          "id": 7,
+          "title": "Coral Castle",
+          "flipSide": "Sunken Reef",
+          "image": "corale-castle.jpg"
+        },
+        {
+          "id": 8,
+          "title": "Sunken Reef",
+          "flipSide": "Coral Castle",
+          "image": "sunken-reef.jpg"
+        },
+        {
+          "id": 9,
+          "title": "Dragon's Lair",
+          "flipSide": "Sorcerer's Bestiary",
+          "image": "dragon-lair.jpg"
+        },
+        {
+          "id": 10,
+          "title": "Sorcerer's Bestiary",
+          "flipSide": "Dragon's Lair",
+          "image": "bestiary.jpg"
+        }
+      ],
+    "lux": [
+      {
+        "id": 11,
+        "title": "Dragon Aerie",
+        "flipSide": "Crystal Keep",
+        "image": "dragon_aerie.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Crystal Keep",
+        "flipSide": "Dragon Aerie",
+          "image": "crystal_keep.jpg"
+        },
+        {
+          "id": 13,
+          "title": "Temple of the Abyss",
+          "flipSide": "Gate of Hell",
+          "image": "temple-abyss.jpg"
+        },
+        {
+          "id": 14,
+          "title": "Gate of Hell",
+          "flipSide": "Temple of the Abyss",
+          "image": "gate-of-hell.jpg"
+        }
+      ],
+    "pearl": [
+      {
+        "id": 15,
+        "title": "Mystical Menagerie",
+        "flipSide": "Alchemical Workshop",
+        "image": "menagerie.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Alchemical Workshop",
+        "flipSide": "Mystical Menagerie",
+          "image": "workshop.jpg"
+        },
+        {
+          "id": 17,
+          "title": "Blood Isle",
+          "flipSide": "Pearl Bed",
+          "image": "blood-isle.jpg"
+        },
+        {
+          "id": 18,
+          "title": "Pearl Bed",
+          "flipSide": "Blood Isle",
+          "image": "pearl-bed.jpg"
+        }
+      ],
+    "promo": []
+  }
+}

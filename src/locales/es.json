@@ -1,0 +1,151 @@
+{
+  "gui": {
+    "subtitle": "Generador de Lugares de Poder aleatorios",
+    "callToAction": "Generar",
+    "playerSlider": "Número de jugadores",
+    "expansions": "Expansiones",
+    "displayOptions": "Opciones de visualización",
+    "countBackwards": "Cuenta regresiva",
+    "colorizeLabels": "Colorear etiquetas",
+    "placesOfPower": "Lugares de Poder",
+    "monuments": "Monumentos",
+    "reload": "Recargar",
+    "close": "Cerrar"
+  },
+  "expansions": [
+    {
+      "id": 1,
+      "title": "Solo juego base",
+      "activated": false,
+      "dataKey": "base"
+    },
+    {
+      "id": 2,
+      "title": "Lux et Tenebrae",
+      "activated": true,
+      "dataKey": "lux"
+    },
+    {
+      "id": 3,
+      "title": "Perlae Imperii",
+      "activated": true,
+      "dataKey": "pearl"
+    }
+  ],
+  "placesOfPower": {
+    "base": [
+      {
+        "id": 1,
+        "title": "Arboleda sagrada",
+        "flipSide": "Torre del mago",
+        "image": "sacred-grove.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Torre del mago",
+        "flipSide": "Arboleda sagrada",
+        "image": "alchemist-tower.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Catacumbas",
+        "flipSide": "Foso del sacrificio",
+        "image": "catacombs.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Foso del sacrificio",
+        "flipSide": "Catacumbas",
+        "image": "sacrificial-pit.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Forja maldita",
+        "flipSide": "Minas del Enano",
+        "image": "cursed-forge.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Minas del Enano",
+        "flipSide": "Forja maldita",
+        "image": "dwarven-mines.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Castillo Coralino",
+        "flipSide": "Pecio",
+        "image": "corale-castle.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Pecio",
+        "flipSide": "Castillo Coralino",
+        "image": "sunken-reef.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Guarida del dragón",
+        "flipSide": "Bestiario mágico",
+        "image": "dragon-lair.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Bestiario mágico",
+        "flipSide": "Guarida del dragón",
+        "image": "bestiary.jpg"
+      }
+    ],
+    "lux": [
+      {
+        "id": 11,
+        "title": "Cubil célico",
+        "flipSide": "Ciudadela de cristal",
+        "image": "dragon_aerie.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Ciudadela de cristal",
+        "flipSide": "Cubil célico",
+        "image": "crystal_keep.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Templo del Abismo",
+        "flipSide": "Puerta del Infierno",
+        "image": "temple-abyss.jpg"
+      },
+      {
+        "id": 14,
+        "title": "Puerta del Infierno",
+        "flipSide": "Templo del Abismo",
+        "image": "gate-of-hell.jpg"
+      }
+    ],
+    "pearl": [
+      {
+        "id": 15,
+        "title": "Criadero místico",
+        "flipSide": "Taller de alquimia",
+        "image": "menagerie.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Taller de alquimia",
+        "flipSide": "Criadero místico",
+        "image": "workshop.jpg"
+      },
+      {
+        "id": 17,
+        "title": "Isla de la Sangre",
+        "flipSide": "Lecho de perlas",
+        "image": "blood-isle.jpg"
+      },
+      {
+        "id": 18,
+        "title": "Lecho de perlas",
+        "flipSide": "Isla de la Sangre",
+        "image": "pearl-bed.jpg"
+      }
+    ]
+  }
+}

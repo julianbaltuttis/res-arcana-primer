@@ -1,0 +1,153 @@
+{
+  "gui": {
+    "subtitle": "Válaszd ki véletlenszerűen a Hatalommal Bíró Helyeket",
+    "callToAction": "Indít",
+    "playerSlider": "Játékosok száma",
+    "expansions": "Kiegészítők",
+    "displayOptions": "Megjelenítési lehetőségek",
+    "countBackwards": "Visszafelé számolás",
+    "colorizeLabels": "Színes címkék",
+    "placesOfPower": "Hatalommal Bíró Helyek",
+    "monuments": "Világcsodák",
+    "reload": "Újratölt",
+    "close": "Bezár"
+  },
+  "expansions": [
+    {
+      "id": 1,
+      "title": "Core Only",
+      "activated": false,
+      "dataKey": "base"
+    },
+    {
+      "id": 2,
+      "title": "Menagerie Promo",
+      "activated": true,
+      "dataKey": "promo"
+    }
+  ],
+  "placesOfPower": {
+    "base": [
+      {
+        "id": 1,
+        "title": "Szent Liget",
+        "flipSide": "Alkimista Torony",
+        "image": "sacred-grove.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Alkimista Torony",
+        "flipSide": "Szent Liget",
+        "image": "alchemist-tower.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Holtak Sírkamrája",
+        "flipSide": "Áldozóverem",
+        "image": "catacombs.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Áldozóverem",
+        "flipSide": "Holtak Sírkamrája",
+        "image": "sacrificial-pit.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Átkozott Kohó",
+        "flipSide": "Törpe Tárnák",
+        "image": "cursed-forge.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Törpe Tárnák",
+        "flipSide": "Átkozott Kohó",
+        "image": "dwarven-mines.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Korallkastély",
+        "flipSide": "Baljós Zátony",
+        "image": "corale-castle.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Baljós Zátony",
+        "flipSide": "Korallkastély",
+        "image": "sunken-reef.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Sárkányfészek",
+        "flipSide": "Menazséria",
+        "image": "dragon-lair.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Menazséria",
+        "flipSide": "Sárkányfészek",
+        "image": "bestiary.jpg"
+      }
+    ],
+    "lux": [
+      {
+        "id": 11,
+        "title": "Sárkánytanya",
+        "flipSide": "Kristálypalota",
+        "image": "dragon_aerie.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Kristálypalota",
+        "flipSide": "Sárkánytanya",
+        "image": "crystal_keep.jpg"
+      },
+      {
+        "id": 13,
+        "title": "A Mélység Temploma",
+        "flipSide": "A Pokol Kapuja",
+        "image": "temple-abyss.jpg"
+      },
+      {
+        "id": 14,
+        "title": "A Pokol Kapuja",
+        "flipSide": "A Mélység Temploma",
+        "image": "gate-of-hell.jpg"
+      }
+    ],
+    "pearl": [
+      {
+        "id": 15,
+        "title": "Varázslatos Vadaspark",
+        "flipSide": "Alkimista Műhely",
+        "image": "menagerie.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Alkimista Műhely",
+        "flipSide": "Varázslatos Vadaspark",
+        "image": "workshop.jpg"
+      },
+      {
+        "id": 17,
+        "title": "Véráztatta Sziget",
+        "flipSide": "Gyöngyforrás",
+        "image": "blood-isle.jpg"
+      },
+      {
+        "id": 18,
+        "title": "Gyöngyforrás",
+        "flipSide": "Véráztatta Sziget",
+        "image": "pearl-bed.jpg"
+      }
+    ],
+    "promo": [
+      {
+        "id": 19,
+        "title": "Varázslatos Vadaspark",
+        "flipSide": "Varázslatos Vadaspark",
+        "image": "menagerie.jpg"
+      }
+    ]
+  }
+}

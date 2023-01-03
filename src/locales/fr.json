@@ -1,0 +1,151 @@
+{
+  "gui": {
+    "subtitle": "Mise en place aléatoire des Lieux de Puissance",
+    "callToAction": "Générer",
+    "playerSlider": "Nombre de Joueurs",
+    "expansions": "Extensions",
+    "displayOptions": "Options d'Affichage",
+    "countBackwards": "Compte à Rebours",
+    "colorizeLabels": "Labels en Couleur",
+    "placesOfPower": "Lieux de Puissance",
+    "monuments": "Monuments",
+    "reload": "Recharger",
+    "close": "Fermer"
+  },
+  "expansions": [
+    {
+      "id": 1,
+      "title": "Jeu de Base",
+      "activated": false,
+      "dataKey": "base"
+    },
+    {
+      "id": 2,
+      "title": "Lux et Tenebrae",
+      "activated": true,
+      "dataKey": "lux"
+    },
+    {
+      "id": 3,
+      "title": "Perlae Imperii",
+      "activated": true,
+      "dataKey": "pearl"
+    }
+  ],
+  "placesOfPower": {
+    "base": [
+      {
+        "id": 1,
+        "title": "Bosquet Sacré",
+        "flipSide": "Tour de l'Alchimiste",
+        "image": "sacred-grove.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Tour de l'Alchimiste",
+        "flipSide": "Bosquet Sacré",
+        "image": "alchemist-tower.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Catacombes de la Mort",
+        "flipSide": "Puits Sacrificiel",
+        "image": "catacombs.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Puits Sacrificiel",
+        "flipSide": "Catacombes de la Mort",
+        "image": "sacrificial-pit.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Forge Maudite",
+        "flipSide": "Mines des Nains",
+        "image": "cursed-forge.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Mines des Nains",
+        "flipSide": "Forge Maudite",
+        "image": "dwarven-mines.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Manoir de Corail",
+        "flipSide": "Récif des Naufrageurs",
+        "image": "corale-castle.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Récif des Naufrageurs",
+        "flipSide": "Manoir de Corail",
+        "image": "sunken-reef.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Repaire des Dragons",
+        "flipSide": "Bestiaire du Sorcier",
+        "image": "dragon-lair.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Bestiaire du Sorcier",
+        "flipSide": "Repaire des Dragons",
+        "image": "bestiary.jpg"
+      }
+    ],
+    "lux": [
+      {
+        "id": 11,
+        "title": "Antre de Dragon",
+        "flipSide": "Forteresse de Cristal",
+        "image": "dragon_aerie.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Forteresse de Cristal",
+        "flipSide": "Antre de Dragon",
+        "image": "crystal_keep.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Temple des Abysses",
+        "flipSide": "Porte des Enfers",
+        "image": "temple-abyss.jpg"
+      },
+      {
+        "id": 14,
+        "title": "Porte des Enfers",
+        "flipSide": "Temple des Abysses",
+        "image": "gate-of-hell.jpg"
+      }
+    ],
+    "pearl": [
+      {
+        "id": 15,
+        "title": "Ménagerie Mystique",
+        "flipSide": "Laboratoire Alchimique",
+        "image": "menagerie.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Laboratoire Alchimique",
+        "flipSide": "Ménagerie Mystique",
+        "image": "workshop.jpg"
+      },
+      {
+        "id": 17,
+        "title": "Île Sanguinaire",
+        "flipSide": "Berceau de Perles",
+        "image": "blood-isle.jpg"
+      },
+      {
+        "id": 18,
+        "title": "Berceau de Perles",
+        "flipSide": "Île Sanguinaire",
+        "image": "pearl-bed.jpg"
+      }
+    ]
+  }
+}

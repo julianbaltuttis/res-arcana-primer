@@ -1,0 +1,14 @@
+/* For development only */
+.boxed {
+    border: 3px solid #333;
+}
+
+/* =============
+   global styles
+   ============= */
+
+/* Defines colors and fonts */
+:root {
+    --clr-sunny-side: #d99236;
+    --clr-deep-blues: #497ee2;
+}
