@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/res-arcana-primer/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/res-arcana-primer/dist/" : "/",
   transpileDependencies: [
     'vuetify'
   ],
