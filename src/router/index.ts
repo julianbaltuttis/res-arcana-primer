@@ -42,6 +42,7 @@ const routes: Array<RouteConfig> = [
 
 const router = new VueRouter({
   mode: 'history',
+  base: '/res-arcana-primer/',
   routes
 })
 
