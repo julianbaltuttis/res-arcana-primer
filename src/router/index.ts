@@ -16,7 +16,7 @@ const routes: Array<RouteConfig> = [
     redirect: `/${i18n.locale}`
   },
   {
-    path: '/res-arcana-primer/:lang',
+    path: '/:lang',
     component: {
       render(c) {
         return c('router-view')
@@ -24,7 +24,7 @@ const routes: Array<RouteConfig> = [
     },
     children: [
       {
-        path: '/res-arcana-primer/',
+        path: '/',
         name: 'home',
         component: Home
       },
