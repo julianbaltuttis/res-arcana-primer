@@ -189,10 +189,11 @@ export default class App extends Vue {
   }
 
   addParamsToLocation(params: ApplicationSettings) {
+    this.$log.debug('--> addParamsToLocation(). Current path:', this.$route.path);
     history.pushState(
         {},
         "",
-        this.$route.path +
+        this.$route.fullPath +
         '?' +
         Object.keys(params)
             .map(key => {
