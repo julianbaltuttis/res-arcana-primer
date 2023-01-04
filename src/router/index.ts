@@ -16,7 +16,7 @@ const routes: Array<RouteConfig> = [
     redirect: `/${i18n.locale}`
   },
   {
-    path: '/:lang',
+    path: '/res-arcana-primer/:lang',
     component: {
       render(c) {
         return c('router-view')
@@ -29,7 +29,7 @@ const routes: Array<RouteConfig> = [
         component: Home
       },
       {
-        path: '/about',
+        path: '/res-arcana-primer/about',
         name: 'About',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
