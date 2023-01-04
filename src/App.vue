@@ -193,6 +193,7 @@ export default class App extends Vue {
     history.pushState(
         {},
         "",
+        '/res-arcana-primer' +
         this.$route.fullPath +
         '?' +
         Object.keys(params)
