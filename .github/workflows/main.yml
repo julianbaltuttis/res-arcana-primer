@@ -9,9 +9,6 @@ jobs:
     - id: Build-Vue
       uses: xRealNeon/VuePagesAction@1.0.0
       with:
-        username: 'jasonfritsche'
-        reponame: 'weather-vue'
+        username: 'julianbaltuttis'
+        reponame: 'res-arcana-primer'
         token: ${{ secrets.GITHUB_TOKEN }}
-      env:
-        VUE_APP_KEY: ${{ secrets.VUE_APP_KEY }}
-        VUE_APP_URL: ${{ secrets.VUE_APP_URL }}
