@@ -83,6 +83,12 @@ export default class Main extends Vue {
     this.placesAmountToGenerate = this.updatePlacesAmountToGenerate();
   }
 
+  @Watch('currentPlayerCount', {immediate: true, deep: true})
+  onPlayerCountChange() {
+    this.$log.debug('--> onPlayerCountChange(). Current count:', this.currentPlayerCount)
+    this.availableMonuments = this.updateAvailableMonuments();
+  }
+
   @Watch('$route', {immediate: true, deep: true})
   onQuery(route: Route) {
     this.$log.debug('--> onUrlChange(route =', route, ').');
@@ -97,15 +103,18 @@ export default class Main extends Vue {
    */
   @Emit('player-count-changed')
   onPlayerCountChanged(currentPlayerCount: number) {
-    this.$log.debug('updated places of power maximum received:', currentPlayerCount);
+    this.$log.debug('--> onPlayerCountChanged(). Updated places of power maximum received:', currentPlayerCount);
     // this.currentPlayerCount = currentPlayerCount;
 
     if (this.coreSetOnlyRulesApply) {
+
       this.applyCoreSetRestrictions();
     } else {
       this.placesAmountToGenerate = currentPlayerCount + 2;
       this.availableMonuments = this.updateAvailableMonuments();
     }
+    this.$log.debug('<-- onPlayerCountChanged(). Return new player count:', currentPlayerCount);
+
     return currentPlayerCount;
   }
 
@@ -117,11 +126,12 @@ export default class Main extends Vue {
   }
 
   /**
-   * Updates available monuments for games that use at least one expansions.
+   * Updates available monuments for games that use at least one expansion.
    * Scales number of monuments according to number of players.
    */
   updateAvailableMonuments() {
     this.$log.debug('--> updateAvailableMonuments(). Backwards Counting: ', this.monumentsNeedBackwardsCounting);
+    this.$log.debug('current player count: ', this.currentPlayerCount);
     let availableMonuments: number = 10;
     if (!this.coreSetOnlyRulesApply) {
       if (this.currentPlayerCount == 2) {
