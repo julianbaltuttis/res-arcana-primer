@@ -127,6 +127,8 @@ export default class GameSetup extends Vue {
   @Watch('placesOfPower', {immediate: true, deep: true})
   onAvailablePlacesOfPowerChange() {
     this.$log.debug('--> onAvailablePlacesOfPowerChange().');
+    this.$log.debug('Monuments counter:', this.monuments);
+
     this.generateFlipSideMap()
   }
 
@@ -140,22 +142,22 @@ export default class GameSetup extends Vue {
   }
 
   getFontColor(id: number) {
-    this.$log.debug('--> getFontColor(). Id =: ', id);
+    // this.$log.debug('--> getFontColor(). Id =: ', id);
 
     let fontColor: string = "";
     // const idNumber: number = Number(id);
     const isBlue: boolean = id % 2 == 0;
     if (!this.fontsNeedColoring) {
       fontColor = "text--black";
-      this.$log.debug('--> set color to: ', fontColor);
+      // this.$log.debug('--> set color to: ', fontColor);
     } else if (isBlue) {
       fontColor = "text--blue";
-      this.$log.debug('--> set color to: ', fontColor);
+      // this.$log.debug('--> set color to: ', fontColor);
     } else {
       fontColor = "text--orange";
-      this.$log.debug('--> set color to: ', fontColor);
+      // this.$log.debug('--> set color to: ', fontColor);
     }
-    this.$log.debug('<-- getFontColor(). Return: ', fontColor);
+    // this.$log.debug('<-- getFontColor(). Return: ', fontColor);
     return fontColor;
   }
 

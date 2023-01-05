@@ -294,6 +294,7 @@ export default class App extends Vue {
   }
 
   onPlayerCountChanged(currentPlayerCount: number) {
+    this.$log.debug('--> onPlayerCountChanged(). New player count received:', currentPlayerCount);
     this.applicationSettings.playerCount = currentPlayerCount;
   }
 }
