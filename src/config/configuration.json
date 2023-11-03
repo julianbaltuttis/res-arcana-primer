@@ -5,7 +5,8 @@
     "de": "Deutsch",
     "fr": "Français",
     "es": "Spanish",
-    "cs": "Czech"
+    "cs": "Czech",
+    "pl": "Polish"
   },
   "ApplicationSettings": {
     "base": false,

@@ -1,0 +1,151 @@
+{
+  "gui": {
+    "subtitle": "Wylosuj enklawy mocy",
+    "callToAction": "Wylosuj",
+    "playerSlider": "Liczba graczy",
+    "expansions": "Dodatki",
+    "displayOptions": "Ustawienia wyświetlania",
+    "countBackwards": "Licz usunięte monumenty",
+    "colorizeLabels": "Kolorowe etykiety",
+    "placesOfPower": "Enklawy mocy",
+    "monuments": "Monumenty",
+    "reload": "Wylosuj ponownie",
+    "close": "Zamknij"
+  },
+  "expansions": [
+    {
+      "id": 1,
+      "title": "Tylko gra podstawowa",
+      "activated": false,
+      "dataKey": "placesOfPower-base"
+    },
+    {
+      "id": 2,
+      "title": "Lux et Tenebrae",
+      "activated": true,
+      "dataKey": "placesOfPower-lux"
+    },
+    {
+      "id": 3,
+      "title": "Perlae Imperii",
+      "activated": true,
+      "dataKey": "placesOfPower-pearl"
+    }
+  ],
+  "placesOfPower": {
+    "placesOfPower-base": [
+      {
+        "id": 1,
+        "title": "Święty gaj",
+        "flipSide": "Wieża alchemika",
+        "image": "sacred-grove.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Wieża alchemika",
+        "flipSide": "Święty gaj",
+        "image": "alchemist-tower.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Katakumby umarłych",
+        "flipSide": "Dół ofiarny",
+        "image": "catacombs.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Dół ofiarny",
+        "flipSide": "Katakumby umarłych",
+        "image": "sacrificial-pit.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Przeklęta kuźnia",
+        "flipSide": "Kopalnie krasnoludów",
+        "image": "cursed-forge.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Kopalnie krasnoludów",
+        "flipSide": "Przeklęta kuźnia",
+        "image": "dwarven-mines.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Koralowy zamek",
+        "flipSide": "Zatopiony okręt",
+        "image": "corale-castle.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Zatopiony okręt",
+        "flipSide": "Koralowy zamek",
+        "image": "sunken-reef.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Smocza góra",
+        "flipSide": "Bestiariusz maga",
+        "image": "dragon-lair.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Bestiariusz maga",
+        "flipSide": "Smocza góra",
+        "image": "bestiary.jpg"
+      }
+    ],
+    "placesOfPower-lux": [
+      {
+        "id": 11,
+        "title": "Smocze gniazdo",
+        "flipSide": "Kryształowy pałac",
+        "image": "dragon_aerie.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Kryształowy pałac",
+        "flipSide": "Smocze gniazdo",
+        "image": "crystal_keep.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Świątynia otchłani",
+        "flipSide": "Bramy piekieł",
+        "image": "temple-abyss.jpg"
+      },
+      {
+        "id": 14,
+        "title": "Bramy piekieł",
+        "flipSide": "Świątynia otchłani",
+        "image": "gate-of-hell.jpg"
+      }
+    ],
+    "placesOfPower-pearl": [
+      {
+        "id": 15,
+        "title": "Mistyczna menażeria",
+        "flipSide": "Pracownia alchemika",
+        "image": "menagerie.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Pracownia alchemika",
+        "flipSide": "Mistyczna menażeria",
+        "image": "workshop.jpg"
+      },
+      {
+        "id": 17,
+        "title": "Karmazynowa wyspa",
+        "flipSide": "Ławica małży",
+        "image": "blood-isle.jpg"
+      },
+      {
+        "id": 18,
+        "title": "Ławica małży",
+        "flipSide": "Karmazynowa wyspa",
+        "image": "pearl-bed.jpg"
+      }
+    ]
+  }
+}
